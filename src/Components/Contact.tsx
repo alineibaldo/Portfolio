@@ -1,6 +1,6 @@
 import { Box, Heading, Container, Stack, Link, Icon } from '@chakra-ui/react'
 //import { EmailIcon } from '@chakra-ui/icons'
-import { FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa'
 
 export default function Contact() {
   return (
@@ -12,7 +12,7 @@ export default function Contact() {
 
         <Stack direction="column" gap={3}>
           <Link href="mailto:aline_ibaldo@hotmail.com" color="blue.300" display="flex" alignItems="center">
-            {/*<Icon as={EmailIcon} boxSize={4} mr={2} />*/}
+            <Icon as={FaEnvelope} boxSize={4} mr={2} />
             Email
           </Link>
 
