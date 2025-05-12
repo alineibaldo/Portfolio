@@ -32,6 +32,7 @@ export default function Technologies() {
               borderRadius="md"
               p={0}
               boxSize="120px"
+              
             >
               <img
                 src={tech.image}
